@@ -111,7 +111,7 @@
  *
  * :[2400, 9600, 19200, 38400, 57600, 115200, 250000, 500000, 1000000]
  */
-#define BAUDRATE 250000
+#define BAUDRATE 115200
 
 // Enable the Bluetooth serial interface on AT90USB devices
 //#define BLUETOOTH
@@ -910,7 +910,7 @@
   // A simple cross-product is used to estimate the plane of the bed.
   #define ABL_PROBE_PT_1_X 25
   #define ABL_PROBE_PT_1_Y 25
-  #define ABL_PROBE_PT_2_X 105
+  #define ABL_PROBE_PT_2_X 85
   #define ABL_PROBE_PT_2_Y 170
   #define ABL_PROBE_PT_3_X 175
   #define ABL_PROBE_PT_3_Y 80
