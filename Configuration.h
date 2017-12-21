@@ -1229,7 +1229,7 @@
  * you must uncomment the following option or it won't work.
  *
  */
-//#define SDSUPPORT
+#define SDSUPPORT
 
 /**
  * SD CARD: SPI SPEED
@@ -1238,7 +1238,7 @@
  * This may be required to resolve "volume init" errors.
  */
 //#define SPI_SPEED SPI_HALF_SPEED
-//#define SPI_SPEED SPI_QUARTER_SPEED
+#define SPI_SPEED SPI_QUARTER_SPEED
 //#define SPI_SPEED SPI_EIGHTH_SPEED
 
 /**
